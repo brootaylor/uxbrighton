@@ -9,6 +9,7 @@ publish_mode: editorial_workflow # Ensures content goes through workflow first, 
 media_folder: "images/uploads"
 site_url: https://brootaylor.github.io/uxbrighton/
 display_url: https://brootaylor.github.io/uxbrighton/
+logo_url: https://brootaylor.github.io/uxbrighton/2022/logo/red-square-2018.png
 
 collections:
   - name: "homepage_2022" # Used in routes, e.g., /admin/collections/blog
