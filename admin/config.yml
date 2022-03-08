@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: brootaylor.github.io/uxbrighton/
+  repo: brootaylor/brootaylor.github.io
   branch: gh-pages
   site_domain: festive-bose-5d5f60.netlify.com
 
