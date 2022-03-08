@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: brootaylor/brootaylor.github.io
+  repo: https://github.com/brootaylor/uxbrighton
   branch: gh-pages
   site_domain: festive-bose-5d5f60.netlify.com
 
@@ -17,3 +17,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+
+brootaylor.github.io/uxbrighton/
