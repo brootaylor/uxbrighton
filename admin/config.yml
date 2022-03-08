@@ -4,7 +4,7 @@ backend:
   branch: gh-pages
   site_domain: festive-bose-5d5f60.netlify.com
 
-# media_folder: "images/uploads"
+media_folder: "images"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
