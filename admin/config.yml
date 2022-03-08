@@ -16,8 +16,13 @@ collections:
   - name: "homepages" # Used in routes, e.g., /admin/collections/blog
     label: "Homepages" # Used in the UI
     files:
-      - label: "Homepage {{year}}"
-        name: "homepage"
-        file: "{{year}}/index.html"
+      - label: "Homepage 2018"
+        name: "homepage-2018"
+        file: "2018/index.html"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+      - label: "Homepage 2022"
+        name: "homepage-2022"
+        file: "2022/index.html"
         fields: # The fields for each document, usually in front matter
           - {label: "Title", name: "title", widget: "string"}
