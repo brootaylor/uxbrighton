@@ -29,7 +29,7 @@ collections:
         file: "2022/index.html"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "title", description: "This is meta content.", widget: "string"}
+          - {label: "Description", name: "description", description: "This is meta content.", widget: "string"}
           - label: "Hero button"
             name: "hero-button"
             widget: "object"
