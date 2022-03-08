@@ -13,14 +13,6 @@ display_url: https://brootaylor.github.io/uxbrighton/
 logo_url: https://brootaylor.github.io/uxbrighton/2022/logo/red-square-small.png
 
 collections:
-  - label: "UX Brighton 2018" # 2018
-    name: "uxbri-2018"
-    files:
-      - label: "Homepage"
-        name: "homepage"
-        file: "2018/index.html"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
   - label: "UX Brighton 2022" # 2022
     name: "uxbri-2022"
     files:
@@ -43,3 +35,11 @@ collections:
             #   - {label: "Button text", name: "ticket-button-text", widget: "string"}
             #   - {label: "Button text (extra)", name: "ticket-button-extra-text", widget: "string"}
             #   - {label: "Button URL Address", name: "ticket-button-url", widget: "string"}
+  - label: "UX Brighton 2018" # 2018
+    name: "uxbri-2018"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "2018/index.html"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
