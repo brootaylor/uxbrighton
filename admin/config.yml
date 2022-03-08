@@ -10,7 +10,7 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 public_folder: "images/uploads" # The src attribute for uploaded media will begin with images/uploads
 site_url: https://brootaylor.github.io/uxbrighton/
 display_url: https://brootaylor.github.io/uxbrighton/
-logo_url: https://brootaylor.github.io/uxbrighton/2022/logo/red-square-2018.png
+logo_url: https://brootaylor.github.io/uxbrighton/2022/logo/red-square-small.png
 
 collections:
   - name: "homepages" # Used in routes, e.g., /admin/collections/blog
