@@ -13,16 +13,16 @@ display_url: https://brootaylor.github.io/uxbrighton/
 logo_url: https://brootaylor.github.io/uxbrighton/2022/logo/red-square-small.png
 
 collections:
-  - name: "2018" # Used in routes, e.g., /admin/collections/2018
-    label: "2018" # Used in the UI
+  - name: "UX Brighton 2018" # Used in routes, e.g., /admin/collections/2018
+    label: "uxbri-2018" # Used in the UI
     files:
       - label: "Homepage"
         name: "homepage"
         file: "2018/index.html"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-  - name: "2022" # Used in routes, e.g., /admin/collections/2022
-    label: "2022" # Used in the UI
+  - name: "UX Brighton 2022" # Used in routes, e.g., /admin/collections/2022
+    label: "uxbri-2022" # Used in the UI
     files:
       - label: "Homepage"
         name: "homepage"
