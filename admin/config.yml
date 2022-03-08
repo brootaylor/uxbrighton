@@ -4,7 +4,7 @@ backend:
   branch: gh-pages
   site_domain: festive-bose-5d5f60.netlify.com
 
-media_folder: "images"
+media_folder: "images/"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -17,6 +17,3 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-
-
-brootaylor.github.io/uxbrighton/
