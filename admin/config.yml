@@ -13,19 +13,28 @@ display_url: https://brootaylor.github.io/uxbrighton/
 logo_url: https://brootaylor.github.io/uxbrighton/2022/logo/red-square-small.png
 
 collections:
-  - name: "2018" # Used in routes, e.g., /admin/collections/blog
+  - name: "2018" # Used in routes, e.g., /admin/collections/2018
     label: "2018" # Used in the UI
     files:
       - label: "Homepage"
         name: "homepage"
         file: "2018/index.html"
-        fields: # The fields for each document, usually in front matter
+        fields:
           - {label: "Title", name: "title", widget: "string"}
-  - name: "2022" # Used in routes, e.g., /admin/collections/blog
+  - name: "2022" # Used in routes, e.g., /admin/collections/2022
     label: "2022" # Used in the UI
     files:
       - label: "Homepage"
         name: "homepage"
         file: "2022/index.html"
-        fields: # The fields for each document, usually in front matter
+        fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "title", description: "This is meta content.", widget: "string"}
+          - label: "Hero button"
+            name: "hero-button"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Button text", name: "ticket-button-text", widget: "string"}
+              - {label: "Button text (extra)", name: "ticket-button-extra-text", widget: "string"}
+              - {label: "Button URL Address", name: "ticket-button-url", widget: "string"}
