@@ -19,7 +19,7 @@ display_url: https://brootaylor.github.io/uxbrighton/
 logo_url: https://brootaylor.github.io/uxbrighton/2022/logo/red-square-small.png
 
 collections:
-  - label: "UX Brighton 2022" # 2022
+  - label: "UX Brighton 2022"
     name: "uxbri-2022"
     files:
       - label: "Homepage"
@@ -28,11 +28,12 @@ collections:
         fields:
           - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
           - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
+          - {label: "Page URL", name: "fullurl", hint: "This is *meta* content.", widget: "string", default: "https://uxbri.org/2022/"}
           - label: "Hero" # Hero section
             hint: "Hero (top) section of the website."
             name: "hero"
             widget: "object"
-            collapsed: false
+            collapsed: true
             fields:
               - label: "Button" # Button (primary)
                 name: "button"
