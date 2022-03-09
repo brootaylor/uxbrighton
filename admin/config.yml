@@ -22,10 +22,6 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", description: "This is meta content.", widget: "string"}
-          - {label: "Button visibility", name: "ticket-button", widget: "select", options: ["show", "hide"], default: ["show"]}
-          - {label: "Button text", name: "ticket-button-text", widget: "string"}
-          - {label: "Button text (extra)", name: "ticket-button-extra-text", widget: "string"}
-          - {label: "Button URL Address", name: "ticket-button-url", widget: "string"}
           - label: "Hero"
             name: "hero"
             widget: "object"
