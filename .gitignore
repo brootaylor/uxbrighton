@@ -12,6 +12,7 @@ to-do.md
 node_modules
 yarn.lock
 package.json
+.env
 .vscode
 .sass-cache
 jobs/logos/unit9-logo.png
