@@ -26,9 +26,10 @@ collections:
         name: "homepage"
         file: "2022/index.html"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", description: "This is meta content.", widget: "string"}
+          - {label: "Title", name: "title", hint: "Primary title of the page.", widget: "string"}
+          - {label: "Description", name: "description", hint: "This is *meta* content. Beneficial to SEO.", widget: "string"}
           - label: "Hero" # Hero section
+            hint: "Hero (top) section of the website."
             name: "hero"
             widget: "object"
             collapsed: false
@@ -38,7 +39,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: "Button visibility", name: "ticket-button", widget: "select", options: ["show", "hide"], default: ["show"]}
-                  - {label: "Button text", name: "ticket-button-text", widget: "string"}
-                  - {label: "Button text (extra)", name: "ticket-button-extra-text", widget: "string"}
-                  - {label: "Button URL Address", name: "ticket-button-url", widget: "string"}
+                  - {label: "Button visibility", name: "ticket-button", hint: "Choose whether to *show* or *hide* the ticket button. It defaults to *show*.", widget: "select", options: ["show", "hide"], default: ["show"]}
+                  - {label: "Button text", name: "ticket-button-text", hint: "Text in the button.", widget: "string"}
+                  - {label: "Button text - extra", name: "ticket-button-extra-text", hint: "This text appears just below the button.", widget: "string", required: false}
+                  - {label: "Button URL Address", name: "ticket-button-url", hint: "URL this button points to.", widget: "string"}
