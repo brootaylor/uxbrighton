@@ -1,9 +1,12 @@
 ---
 fullurl: https://uxbri.org/2022/
 talk-slides: hide
-ticket-button-extra-text: Group Discount - buy 4 get 1 free
 talk-times: hide
-ticket-button-text: Early Bird Ticket — 15% Off
+hero:
+  ticket-button: show
+  ticket-button-text: Early Bird Ticket — 15% Off
+  ticket-button-extra-text: Group Discount - buy 4 get 1 free
+  ticket-button-url: https://www.tickettailor.com/events/uxbrighton/362453
 hero-image: /2022/images/header.jpg
 upcoming-image: /2022/images/upcoming-bg.jpg
 layout: conference-2022/default
@@ -13,9 +16,7 @@ event-promo-footer: hide
 workshops: hide
 redirect_from:
   - /
-ticket-button: show
 speakers: hide
-ticket-button-url: https://www.tickettailor.com/events/uxbrighton/362453
 after-party: hide
 travel-and-accommodation-blurb: hide
 upcoming-button-text: Tickets and info
@@ -71,9 +72,9 @@ highlights: show
             {% if page.ticket-button == "show" %}
             <div class="if-cta-is-stuck__tickets mb4">
               <h2 class="mb2 mt2">Get tickets</h2>
-              <a href="{{ page.ticket-button-url }}" class="button button--large button--green bold standfirst">{{ page.ticket-button-text }}</a>
-              {% if page.ticket-button-extra-text %}
-                <p>{{ page.ticket-button-extra-text }}</p>
+              <a href="{{ page.ticket-button-url }}" class="button button--large button--green bold standfirst">{{ page.hero.ticket-button-text }}</a>
+              {% if page.hero.ticket-button-extra-text %}
+                <p>{{ page.hero.ticket-button-extra-text }}</p>
               {% endif %}
             </div>
             {% endif %}<!--
